@@ -357,6 +357,8 @@ nav a {
 
 }
 
+
+
 .games-items {
     display: flex;
     width: 243px;
@@ -372,6 +374,8 @@ nav a {
 
 
 }
+
+
 
 .games-items img {
     width: 20%;
@@ -444,4 +448,85 @@ nav a {
     text-align: center;
     font-size: 16px;
     font-weight: 500;
+}
+
+/* responsive media query */
+
+
+
+
+/* responsive media query for small devices*/
+@media screen and (max-width: 575px) {
+    header {
+        padding: 10px;
+    }
+
+    .logo img {
+        width: 60px;
+        height: auto;
+    }
+
+    nav {
+        margin-left: 20px;
+    }
+
+    nav ul {
+        margin-left: 0;
+    }
+
+    .follow-us p {
+        margin-right: 10px;
+    }
+
+    .hero-section {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .hero-content {
+        width: 100%;
+        height: auto;
+        background-size: cover;
+    }
+
+    .content-title {
+        font-size: 36px;
+        padding-top: 80px;
+    }
+
+
+
+
+}
+
+
+/* responsive media query for medium devices  */
+@media screen and (min-width: 576px) and (max-width: 991px) {
+
+
+    header {
+        padding: 15px 20px;
+    }
+
+    .logo img {
+        width: 70px;
+        height: auto;
+    }
+
+    nav ul {
+        margin-left: 20px;
+    }
+
+    nav li {
+        margin-right: 15px;
+    }
+
+    .hero-section {
+        gap: 50px;
+    }
+
+    .content-title {
+        font-size: 42px;
+        padding-top: 120px;
+    }
 }

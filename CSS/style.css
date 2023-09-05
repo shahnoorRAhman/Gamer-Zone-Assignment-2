@@ -58,7 +58,7 @@ nav ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 1100px;
+    margin-left: 1050px;
 }
 
 nav li {
@@ -68,7 +68,7 @@ nav li {
 nav a {
     text-decoration: none;
     color: #333;
-    font-weight: bold;
+    font-size: 18px;
 }
 
 
@@ -77,13 +77,14 @@ nav a {
     align-items: center;
 }
 
-.follow-us span {
-    margin-right: 30px;
+.follow-us p {
+    margin-right: 25px;
 
 }
 
 .follow-us a {
-    margin-right: 30px;
+    margin-right: 35px;
+    gap: 5px;
 }
 
 
@@ -142,7 +143,7 @@ nav a {
 }
 
 .btn-primary-1 {
-
+    color: #FFF;
     background: #4EC5F7;
     font-size: 20px;
     font-weight: 600;
@@ -152,4 +153,194 @@ nav a {
     border-radius: 48px;
     background: #4EC5F7;
     margin-left: 20px;
+}
+
+.btn-primary-2 {
+
+    color: #FF42A5;
+    background: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 48px;
+    background: white;
+    margin-left: 400px;
+}
+
+.banner {
+    display: flex;
+    /* width: 1920px;
+    height: 600px; */
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+
+}
+
+.banner-title {
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-description {
+    color: #534C64;
+    text-align: right;
+    width: 520px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.videos-section-title {
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 120px;
+    margin-bottom: 0;
+}
+
+.videos-section-description {
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.gradient-color {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.funny-videos-images {
+
+    width: 342px;
+    height: 400px;
+    flex-shrink: 0;
+    border-radius: 16px;
+
+
+}
+
+.funny-videos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.no-download-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    gap: 270px;
+}
+
+.no-download-title {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+
+}
+
+.no-download-description {
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 353px;
+}
+
+.no-download-content-img {
+    width: 634.833px;
+    height: 650px;
+    flex-shrink: 0;
+}
+
+.img-badge {
+    width: 318.5px;
+    height: 365.083px;
+
+    border-radius: 8px;
+    border: 0;
+    margin: 0;
+    position: relative;
+    bottom: 300px;
+    right: 100px;
+
+}
+
+.img-badge-1 {
+    width: 318.5px;
+    height: 365.083px;
+
+    border-radius: 8px;
+    border: 0;
+    margin: 0;
+    position: relative;
+    bottom: 300px;
+    left: 500px;
+}
+
+.careers-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF42A5;
+    margin-top: 150px;
+}
+
+.careers-title {
+    color: #FFF;
+    padding-left: 450px;
+    width: 426px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.careers-description {
+    color: #FFF;
+    width: 680px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-left: 250px;
+}
+
+.position {
+    display: flex;
+    gap: 30px;
+    padding-left: 300px;
+}
+
+.careers-position-description {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.addresses {
+    color: #FFF;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px;
 }

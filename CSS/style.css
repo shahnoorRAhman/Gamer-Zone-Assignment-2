@@ -344,3 +344,45 @@ nav a {
     font-weight: 600;
     line-height: 40px;
 }
+
+.games-catagories {
+    display: flex;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+
+
+}
+
+.games-items {
+    display: flex;
+    width: 243px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #FFF;
+
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.games-items img {
+    width: 20%;
+    height: 60px;
+    flex-shrink: 0;
+    padding: 10px;
+}
+
+.games-items h6 {
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+}
